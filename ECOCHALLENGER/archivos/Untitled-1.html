@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoChallenger - Cuidemos el Planeta</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- Encabezado con banner -->
+  <header class="hero" style="background-image: url('../imagenes/montanas.jpg'); background-size: cover; background-position: center; height: 70vh; color: white;">
+    <div class="overlay" style="background: rgba(0,0,0,0.5); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+      <h1 class="logo" style="font-size: 3rem; margin-bottom: 1rem;">🌱 EcoChallenger</h1>
+      <nav>
+        <ul style="list-style: none; display: flex; gap: 20px; padding: 0;">
+          <li><a href="#quienes" style="color: white; text-decoration: none;">Quiénes Somos</a></li>
+          <li><a href="#mision" style="color: white; text-decoration: none;">Misión</a></li>
+          <li><a href="#servicios" style="color: white; text-decoration: none;">Servicios</a></li>
+          <li><a href="#hosting" style="color: white; text-decoration: none;">Hosting</a></li>
+          <li><a href="#contacto" style="color: white; text-decoration: none;">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección Quiénes Somos -->
+  <section id="quienes">
+    <h2>¿Quiénes Somos?</h2>
+    <img src="../imagenes/bosque.jpg" alt="Bosque verde" class="img-section">
+    <p>
+      En <b>EcoChallenger</b> trabajamos para <b>concientizar y fomentar acciones sostenibles</b> en la comunidad. 
+      Nuestro objetivo es impulsar hábitos que protejan el medio ambiente a través de campañas educativas, 
+      proyectos comunitarios y el uso responsable de los recursos.
+    </p>
+  </section>
+
+  <!-- Sección Misión -->
+  <section id="mision" class="color-block">
+    <h2>Nuestra Misión</h2>
+    <img src="../imagenes/oceano.jpg" alt="Océano limpio" class="img-section">
+    <p>
+      Promover la sostenibilidad y el cuidado del planeta 🌍 a través de la innovación, la educación ambiental 
+      y la colaboración con empresas y comunidades.
+    </p>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>🌱 Talleres de <a href="https://www.ecologiaverde.com/reciclaje/" target="_blank">reciclaje y reducción de residuos</a>.</li>
+      <li>💡 Asesorías en <a href="https://www.energias-renovables.com/" target="_blank">eficiencia energética</a>.</li>
+      <li>🌍 Campañas educativas para <a href="https://www.greenpeace.org/" target="_blank">colegios y universidades</a>.</li>
+      <li>🌿 Implementación de proyectos <a href="https://www.wwf.org/" target="_blank">comunitarios verdes</a>.</li>
+    </ul>
+  </section>
+
+  <!-- Sección Hosting y Servidor -->
+  <section id="hosting" class="color-block">
+    <h2>Nuestro Hosting y Servidor</h2>
+    <img src="../imagenes/solar.jpg" alt="Paneles solares" class="img-section">
+    <p>
+      EcoChallenger se aloja en un <b>proveedor de hosting ecológico</b> que utiliza <b>energía renovable</b>.  
+      Nuestro servidor web es <b>Apache</b>, confiable y seguro, garantizando un rendimiento óptimo y 
+      reduciendo el impacto ambiental 🌞⚡.
+    </p>
+  </section>
+
+  <!-- Sección Noticias -->
+  <section id="noticias">
+    <h2>Noticias Verdes</h2>
+    <div class="noticias-container">
+      <article class="noticia">
+        <img src="../imagenes/reciclaje.jpg" alt="Reciclaje en colegios">
+        <h3>🌱 Nueva campaña de reciclaje en colegios</h3>
+        <p>EcoChallenger ha iniciado una campaña en colegios locales para fomentar la separación de residuos y la reutilización de materiales.</p>
+        <a href="https://www.ecologiaverde.com/reciclaje/" target="_blank">Leer más</a>
+      </article>
+
+      <article class="noticia">
+        <img src="../imagenes/energia.jpg" alt="Energía solar en comunidades rurales">
+        <h3>🌍 Energía solar en comunidades rurales</h3>
+        <p>Estamos colaborando en proyectos de energía solar que buscan llevar electricidad limpia y sostenible a comunidades rurales.</p>
+        <a href="https://www.energias-renovables.com/" target="_blank">Leer más</a>
+      </article>
+
+      <article class="noticia">
+        <img src="../imagenes/agua.jpg" alt="Ahorro de agua">
+        <h3>💧 Taller de ahorro de agua</h3>
+        <p>En alianza con empresas locales, promovemos talleres prácticos para enseñar a reducir el consumo de agua en el hogar.</p>
+        <a href="https://www.greenpeace.org/colombia/" target="_blank">Leer más</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Formulario de Contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form id="formulario">
+      <input type="text" id="nombre" placeholder="Tu nombre">
+      <span class="error" id="errorNombre"></span>
+
+      <input type="email" id="correo" placeholder="Tu correo">
+      <span class="error" id="errorCorreo"></span>
+
+      <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+      <span class="error" id="errorMensaje"></span>
+
+      <button type="submit">Enviar</button>
+      <div id="mensajeExito" class="exito"></div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 EcoChallenger | Conciencia y acción por un futuro sostenible.</p>
+    <p>
+      🌍 Más info en: 
+      <a href="https://www.unep.org/es" target="_blank">Programa de la ONU para el Medio Ambiente</a>
+    </p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
